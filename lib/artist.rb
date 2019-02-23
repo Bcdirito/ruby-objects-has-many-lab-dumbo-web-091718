@@ -22,4 +22,5 @@ class Artist
     song = Song.new(name)
     song.artst = self
     @@songs << song
+  end
 end
