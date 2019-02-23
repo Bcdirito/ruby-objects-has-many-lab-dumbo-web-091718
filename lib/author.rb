@@ -13,7 +13,7 @@ class Author
   end
   
   def add_post(post)
-    arg.author = self
+    post.author = self
     @@posts << self
   end
 end
