@@ -9,4 +9,6 @@ class Author
   end
   
   def self.posts
+    @@posts
+  end
 end
