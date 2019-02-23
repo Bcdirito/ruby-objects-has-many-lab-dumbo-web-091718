@@ -12,7 +12,7 @@ class Author
     @@posts
   end
   
-  def add_post(arg)
+  def add_post(post)
     binding.pry
     post.author = self
     @@posts << post
