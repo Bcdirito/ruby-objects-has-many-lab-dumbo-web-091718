@@ -15,4 +15,5 @@ class Song
   
   def artist_name
     return self.artist ? self.artist.name : nil
+  end
 end
